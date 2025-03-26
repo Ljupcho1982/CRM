@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMBlazor", "CRMBlazor\CRMB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMRUtiliy", "CMRUtiliy\CMRUtiliy.csproj", "{42C96DC1-2D67-4E43-A2C7-B638DDC95E0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMRModel", "CMRModel\CMRModel.csproj", "{ABD18F70-24EB-432F-90F5-FA52E1122634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{42C96DC1-2D67-4E43-A2C7-B638DDC95E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C96DC1-2D67-4E43-A2C7-B638DDC95E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C96DC1-2D67-4E43-A2C7-B638DDC95E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD18F70-24EB-432F-90F5-FA52E1122634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD18F70-24EB-432F-90F5-FA52E1122634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD18F70-24EB-432F-90F5-FA52E1122634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD18F70-24EB-432F-90F5-FA52E1122634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
