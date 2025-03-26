@@ -9,7 +9,11 @@ namespace CRM.API.Areas.PublicArea.Controllers
 {
     [Area("PublicArea")]
     [DisplayName("Public Controller")]
-    [Route("api/[area]/[controller]")]
+    [Route("PublicArea/[controller]")]
+    
+
+   
+
     [ApiController]
     public class PublicController : ControllerBase
     {

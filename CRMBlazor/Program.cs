@@ -7,6 +7,13 @@ namespace CRMBlazor
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var apiBaseAddress = builder.Configuration["ApiBaseAddress"];
+            if (string.IsNullOrEmpty(apiBaseAddress))
+            {
+                throw new ArgumentNullException(nameof(apiBaseAddress), "ApiBaseAddress configuration is missing or empty.");
+            }
+
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiBaseAddress) });
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
